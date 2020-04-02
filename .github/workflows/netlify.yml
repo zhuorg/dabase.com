@@ -8,8 +8,6 @@ jobs:
     container: peaceiris/hugo
     steps:
       - uses: actions/checkout@v2
-        with:
-          lfs: true
       - name: Build
         run: hugo
       - name: Deploy to Netlify
