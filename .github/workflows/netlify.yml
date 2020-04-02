@@ -11,7 +11,7 @@ jobs:
       - name: Build
         run: hugo
       - name: Deploy to Netlify
-        uses: nwtgck/actions-netlify@v1.0
+        uses: zhuorg/actions-netlify@develop
         with:
           publish-dir: './public'
           production-branch: master
